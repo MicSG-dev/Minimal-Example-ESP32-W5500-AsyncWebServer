@@ -26,3 +26,7 @@ ETH got IP: 192.167.0.152
 
 ## Example of access in the browser
 ![image](https://github.com/user-attachments/assets/2427c95e-8518-4bd4-9a3f-16b1a9b3c5a9)
+
+## Hostname display
+As defined in `ETH.setHostname(hostnameBoard);` ([line 41, main.cpp](https://github.com/MicSG-dev/Minimal-Example-ESP32-W5500-AsyncWebServer/blob/449a30dae85b41a40205b575cf14bd437a3df569/src/main.cpp#L41)), the ESP32 has the hostname "ESP32 123". On the router of the network to which the ESP32 is connected, you can see this hostname:
+![image](https://github.com/user-attachments/assets/15018aa8-0ac0-44ff-b616-8823d9da4c59)
