@@ -15,6 +15,8 @@ A basic example of an Asynchronous WebServer using Ethernet interface with W5500
 ![Schematic bb](https://github.com/MicSG-dev/Minimal-Example-ESP32-W5500-AsyncWebServer/blob/main/schematic/Sketch_bb.png)
 **W5500 pins are defined in the [platformio.ini](https://github.com/MicSG-dev/Minimal-Example-ESP32-W5500-AsyncWebServer/blob/main/platformio.ini) file.
 
+IMPORTANT NOTE: The interrupt pin MUST be used.
+
 ## Example Serial output
 ```
 ETH Started
