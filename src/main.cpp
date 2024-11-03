@@ -1,6 +1,7 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <ETH.h>
+#include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 
 AsyncWebServer server(80);
