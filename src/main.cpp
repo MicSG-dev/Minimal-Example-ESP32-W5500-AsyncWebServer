@@ -55,6 +55,7 @@ void onEvent(arduino_event_id_t event, arduino_event_info_t info)
 
   {
     Serial.println("ETH got IP: " + ETH.localIP().toString());
+    Serial.println("Web: http://" + ETH.localIP().toString());
     break;
   }
   case ARDUINO_EVENT_ETH_LOST_IP:
